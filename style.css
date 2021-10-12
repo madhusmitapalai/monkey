@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+background: linear-gradient(60deg, #f5af19, #a8ff78);
+}
+h1 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.imoji {
+  font-size: 10rem;
+  cursor: pointer;
+  user-select: none;
+}
+.closed {
+  display: none;
+}
+.open {
+  display: none;
+}
+.active {
+  display: block;
+}
